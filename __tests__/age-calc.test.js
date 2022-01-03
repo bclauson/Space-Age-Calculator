@@ -39,4 +39,11 @@ describe('Space Age', () => {
   test('Should recieve the years expected left to live', () => {
     expect(reusableSpace.yearsLeft).toEqual(53);
   });
+
+  test('Should recieve the years expected left on each planet', () => {
+    expect(reusableSpace.mercuryLeft).toEqual(13);
+    expect(reusableSpace.venusLeft).toEqual(33);
+    expect(reusableSpace.marsLeft).toEqual(100);
+    expect(reusableSpace.jupiterLeft).toEqual(629);
+  });
 });
