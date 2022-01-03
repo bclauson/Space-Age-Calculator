@@ -11,4 +11,9 @@ describe('Space Age', () => {
     console.log(reusableSpace);
   });
 
+  test('Should recieve the age and expected age', () => {
+    expect(reusableSpace.age).toEqual(22);
+    expect(reusableSpace.expectancy).toEqual(75);
+  });
+
 });
