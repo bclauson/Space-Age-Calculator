@@ -21,4 +21,8 @@ describe('Space Age', () => {
     expect(reusableSpace.mercuryExpect).toEqual(18);
   });
 
+  test('Should recieve the age and expected age in Venus Years', () => {
+    expect(reusableSpace.venusAge).toEqual(14);
+    expect(reusableSpace.venusExpect).toEqual(47);
+  })
 });
