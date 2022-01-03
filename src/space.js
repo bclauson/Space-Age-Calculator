@@ -3,6 +3,7 @@ export default class SpaceAge {
     this.age = age;
     this.expectancy = expectancy;
     this.mercuryAge = Math.round(age * 0.24);
+    this.mercuryExpect = Math.round(expectancy * 0.24);
   }
 
 }
