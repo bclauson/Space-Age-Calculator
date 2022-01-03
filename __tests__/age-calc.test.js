@@ -2,10 +2,12 @@ import SpaceAge from './../src/space.js';
 
 describe('Space Age', () => {
   let reusableSpace;
+  let aboveExpected;
 
   beforeEach(() => {
     reusableSpace = new SpaceAge(22,75);
-  })
+    aboveExpected = new SpaceAge(82,75);
+  });
 
   test('Should construct a SpaceAge object with constructor', () => {
     console.log(reusableSpace);
@@ -46,4 +48,9 @@ describe('Space Age', () => {
     expect(reusableSpace.marsLeft).toEqual(100);
     expect(reusableSpace.jupiterLeft).toEqual(629);
   });
+
+  test('Should recieve the years past expected age if above expectancy', () => {
+    expect(aboveExpected.yearsLeft).toEqual(7);
+  });
+
 });
