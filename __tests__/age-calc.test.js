@@ -35,4 +35,8 @@ describe('Space Age', () => {
     expect(reusableSpace.jupiterAge).toEqual(261);
     expect(reusableSpace.jupiterExpect).toEqual(890);
   });
+
+  test('Should recieve the years expected left to live', () => {
+    expect(reusableSpace.yearsLeft).toEqual(53);
+  });
 });
