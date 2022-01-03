@@ -18,7 +18,7 @@ describe('Space Age', () => {
 
   test('Should recieve the age and expected age in Mercury years', () => {
     expect(reusableSpace.mercuryAge).toEqual(5);
-
+    expect(reusableSpace.mercuryExpect).toEqual(18);
   });
 
 });
