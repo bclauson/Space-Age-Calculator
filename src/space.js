@@ -8,6 +8,8 @@ export default class SpaceAge {
     this.venusExpect = Math.round(expectancy * 0.62);
     this.marsAge = Math.round(age * 1.88);
     this.marsExpect = Math.round(expectancy * 1.88);
+    this.jupiterAge = Math.round(age * 11.86);
+    this.jupiterExpect = Math.round(expectancy * 11.86);
 
   }
 
