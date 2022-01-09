@@ -1,4 +1,4 @@
-import SpaceAge from './../src/space.js';
+import SpaceAge from './../src/SpaceAge.js';
 
 describe('Space Age', () => {
   let reusableSpace;

@@ -31,6 +31,12 @@
 * npm install
 * npm build
 
+## **Running Tests**
+* Tests are run through jest extention to VSCode
+* Make sure extention is added, then run debugger using jest
+* The tests js file should show which tests are passing with a checkmark indicater 
+* Also test using npm test in terminal
+
 <p>&nbsp<p>
 
 ## **Known Bugs**
